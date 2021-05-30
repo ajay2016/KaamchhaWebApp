@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Login Test</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num">62</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">All Links Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">11</td><td></td><td></td></tr>
+<tr><td><a href="#t2">My Bookings Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">10</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Mason Lists Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">82,500</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num attn">8</th><th class="num">0</th><th class="num">82,583</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">org.kaamchha.testcases.LoginTest</td><td><a href="#m0">Login</a></td><td rowspan="4">1622360241394</td><td rowspan="4">2</td></tr><tr class="skippedeven"><td><a href="#m1">Login</a></td></tr><tr class="skippedeven"><td><a href="#m2">Login</a></td></tr><tr class="skippedeven"><td><a href="#m3">Login</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">All Links Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">org.kaamchha.testcases.AllLinksTest</td><td><a href="#m4">LinkTest</a></td><td rowspan="2">1622360241722</td><td rowspan="2">2</td></tr><tr class="skippedeven"><td><a href="#m5">LinkTest</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">My Bookings Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">org.kaamchha.testcases.MyBookingsTest</td><td><a href="#m6">MyBookings</a></td><td rowspan="2">1622360241800</td><td rowspan="2">2</td></tr><tr class="skippedeven"><td><a href="#m7">MyBookings</a></td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Mason Lists Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">org.kaamchha.testcases.MasonlistTest</td><td><a href="#m8">MasonLists</a></td><td rowspan="2">1622360261439</td><td rowspan="2">60906</td></tr><tr class="passedeven"><td><a href="#m9">MasonLists</a></td></tr></tbody>
+</table>
+<h2>Login Test</h2><h3 id="m0">org.kaamchha.testcases.LoginTest#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{FirstName=Toom, Zipcode=22003, Password=, LastName=Smith, Profile Text=, Runmode=Y, PhoneNumber=9851031733, Browser=chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Test skipped since rumode is N
+	at org.kaamchha.testcases.LoginTest.Login(LoginTest.java:32)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">org.kaamchha.testcases.LoginTest#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{FirstName=Tom, Zipcode=22009, Password=9823576876, LastName=Smith, Profile Text=Welcome Anil Karki, Runmode=Y, PhoneNumber=9823576876, Browser=chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Test skipped since rumode is N
+	at org.kaamchha.testcases.LoginTest.Login(LoginTest.java:32)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">org.kaamchha.testcases.LoginTest#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{FirstName=Tommy, Zipcode=22015, Password=9823576876, LastName=Smith, Profile Text=Welcome Anil Karki, Runmode=Y, PhoneNumber=9823576876, Browser=firefox}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Test skipped since rumode is N
+	at org.kaamchha.testcases.LoginTest.Login(LoginTest.java:32)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">org.kaamchha.testcases.LoginTest#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{FirstName=Toom, Zipcode=22003, Password=9851031733, LastName=Smith, Profile Text=Welcome Anil Karki, Runmode=Y, PhoneNumber=, Browser=firefox}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Test skipped since rumode is N
+	at org.kaamchha.testcases.LoginTest.Login(LoginTest.java:32)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>All Links Test</h2><h3 id="m4">org.kaamchha.testcases.AllLinksTest#LinkTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Zipcode=22003, Runmode=Y, Browser=firefox}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Test skipped since rumode is N
+	at org.kaamchha.testcases.AllLinksTest.LinkTest(AllLinksTest.java:25)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">org.kaamchha.testcases.AllLinksTest#LinkTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Zipcode=22009, Runmode=Y, Browser=chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Test skipped since rumode is N
+	at org.kaamchha.testcases.AllLinksTest.LinkTest(AllLinksTest.java:25)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>My Bookings Test</h2><h3 id="m6">org.kaamchha.testcases.MyBookingsTest#MyBookings</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Password=9851031733, Profile Text=Welcome Anil Karki, Runmode=Y, PhoneNumber=9851031733, Service Provider=Bablu Singh, Browser=firefox}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Test skipped since rumode is N
+	at org.kaamchha.testcases.MyBookingsTest.MyBookings(MyBookingsTest.java:27)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">org.kaamchha.testcases.MyBookingsTest#MyBookings</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Password=9851031733, Profile Text=Welcome Anil Karki, Runmode=Y, PhoneNumber=9851031733, Service Provider=Bablu Singh, Browser=chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Test skipped since rumode is N
+	at org.kaamchha.testcases.MyBookingsTest.MyBookings(MyBookingsTest.java:27)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Mason Lists Test</h2><h3 id="m8">org.kaamchha.testcases.MasonlistTest#MasonLists</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Zipcode=22003, Runmode=Y, Browser=firefox}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">org.kaamchha.testcases.MasonlistTest#MasonLists</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Zipcode=22009, Runmode=Y, Browser=chrome}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+
+		<listener
+			class-name="org.kaamchha.reports.ExtentListeners" />
+	</listeners>
+	
+	<test name="Login Test">
+		<classes>
+
+			<class name="org.kaamchha.testcases.LoginTest" />
+				
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="All Links Test">
+		<classes>
+
+			<class name="org.kaamchha.testcases.AllLinksTest" />
+				
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="My Bookings Test">
+	
+		<classes>
+
+			<class name="org.kaamchha.testcases.MyBookingsTest" />
+				
+		</classes>
+
+	</test> <!-- Test -->
+
+
+<test name="Mason Lists Test">
+	
+		<classes>
+
+			<class name="org.kaamchha.testcases.MasonlistTest" />
+				
+		</classes>
+
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

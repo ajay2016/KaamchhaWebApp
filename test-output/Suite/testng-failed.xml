@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.kaamchha.reports.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="org.kaamchha.testcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="Login" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- org.kaamchha.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test thread-count="5" name="All Links Test(failed)">
+    <classes>
+      <class name="org.kaamchha.testcases.AllLinksTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="LinkTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- org.kaamchha.testcases.AllLinksTest -->
+    </classes>
+  </test> <!-- All Links Test(failed) -->
+  <test thread-count="5" name="My Bookings Test(failed)">
+    <classes>
+      <class name="org.kaamchha.testcases.MyBookingsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="MyBookings" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.kaamchha.testcases.MyBookingsTest -->
+    </classes>
+  </test> <!-- My Bookings Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
